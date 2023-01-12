@@ -103,7 +103,7 @@ iframe {
     /* opacity: 0.8; */
     background-size: cover;
     background-position: center;
-    /* z-index: -1; */
+    /* z-index: 2; */
 }
 
 .main-header-wrapper {
@@ -500,7 +500,7 @@ footer p:last-child {
         flex: 0;
         width: 100%;
         height: 50%;
-        padding-bottom: 80px;
+        margin-bottom: 80px;
         justify-content: flex-end;
         
     }
@@ -542,7 +542,7 @@ footer p:last-child {
       
     }
 
-    .cont-for-header {
+.cont-for-header {
         flex-direction: column-reverse ;
     }
 
@@ -557,7 +557,7 @@ footer p:last-child {
         flex: 0;
         width: 100%;
         height: 50%;
-        padding-bottom: 80px;
+        margin-bottom: 100px !important;
         justify-content: flex-end;
         
     }
