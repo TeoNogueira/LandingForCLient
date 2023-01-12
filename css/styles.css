@@ -1,7 +1,12 @@
 /* 
  * Created by Anderson Anizio
 */
+* {
 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 
 /* 
@@ -9,7 +14,7 @@
  */
 
 :root {
-    --main-color: #2196F3;
+    --main-color: #185c37;
     --main-color-darker: #1668aa;
     --main-color-crim: crimson;
     --main-color-gr: #185c37;
@@ -48,7 +53,7 @@ p {
     text-decoration: none;
     transition: all .3s;
     position: relative;
-    bottom: 115px;
+    bottom: 55px;
   
 }
 
@@ -63,9 +68,14 @@ p {
     display: flex;
     width: 100%;
     height: 100%;
+
     justify-content:center;
-    position: relative;
-    bottom: 34px;
+ 
+}
+
+.cont-img img {
+    padding: 0 10px;
+ 
 }
 /* frame */
 
@@ -114,11 +124,13 @@ iframe {
 }
 
 .cont-for-header {
-    flex-direction: row;
     display: flex;
+    align-items: center;
     width: 100%;
-    : 100%;
+    height: 100vh;
 }
+
+
 
 @keyframes headerFadeIn {
     from {
@@ -163,13 +175,27 @@ iframe {
 /* Hero */
 
 .hero {
+    width: 60%;
+    flex: 1 0 auto;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 4;
+    opacity: 0;
+    animation: heroFadeIn 1s 1s forwards;
+}
+
+.hero-1 {
+    width: 40%;
     flex: 1 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    z-index: 2;
+    z-index: 4;
     opacity: 0;
     animation: heroFadeIn 1s 1s forwards;
 }
@@ -185,17 +211,17 @@ iframe {
     }
 }
 
-.hero > * {
+.hero, .hero-1 > * {
     font-family: 'Open Sans', sans-serif;
 }
 
-.hero h2 {
+.hero, .hero-1 h2 {
     color: white;
     font-size: 50px;
     margin: 0;
 }
 
-.hero h3 {
+.hero, .hero-1 h3 {
     color: white;
     margin: 30px 0 10px 0;
 }
@@ -207,7 +233,7 @@ iframe {
  */
 
 .section {
-    padding: 100px 0;
+    padding: 40px 0;
     text-align: center;
 }
 
@@ -407,7 +433,7 @@ footer p:last-child {
 
 */
 
-@media (max-width: 768px) {
+@media (max-width: 768px) and (min-width: 426px){
 
     .main-header-top {
         flex-direction: column;
@@ -453,6 +479,41 @@ footer p:last-child {
         flex: 1 1 auto;
     }
 
+    .cont-img img {
+
+        width: 78px;
+        padding: 0 16px;
+        height: 35px;
+    }
+
+    .cont-for-header {
+        flex-direction: column-reverse ;
+    }
+
+    .hero {
+        flex: 0;
+        width: 100%;
+    }
+
+
+    .hero-1 {
+        flex: 0;
+        width: 100%;
+        height: 50%;
+        padding-bottom: 80px;
+        justify-content: flex-end;
+        
+    }
+
+    .hero-1 h2 {
+        font-size: 28px;
+    }
+  
+    iframe {
+        width: 720px;
+        height: 320px;
+        /* max-width: 460px; */
+    }
 }
 
 
@@ -461,25 +522,50 @@ footer p:last-child {
     .cont-img {
 
         display: flex;
-        width: 100%;
-        max-width: 20px;
-        height: 20px;
+        width: 120px;
+        max-width: 50px;
         justify-content:center;
         position: relative;
         margin: 0 auto;
         bottom: 34px;
     }
 
+    .cont-img img {
+
+        width: 48px;
+        padding: 0 3px;
+        height: 35px;
+    }
     .btn-primary {
         padding: 14px 15px;
    
       
     }
 
-    img.cont-img {
+    .cont-for-header {
+        flex-direction: column-reverse ;
+    }
 
 
-    } 
+    .hero {
+        flex: 0;
+        width: 100%;
+    }
+
+
+    .hero-1 {
+        flex: 0;
+        width: 100%;
+        height: 50%;
+        padding-bottom: 80px;
+        justify-content: flex-end;
+        
+    }
+
+    .hero-1 h2 {
+        font-size: 28px;
+    }
+
 
     iframe {
         width: 370px;
@@ -495,9 +581,30 @@ footer p:last-child {
 @media (max-width: 375px) {
 
     .btn-primary {
-        padding: 12px 15px;
-   
-      
+        padding: 12px 15px !important; 
+    }
+
+    .cont-img img {
+
+        width: 48px !important;
+        padding: 0 3px !important;
+        height: 39px !important;
+    }
+
+
+
+}
+@media (max-width: 320px) {
+
+    .btn-primary {
+        padding: 12px 15px !important; 
+    }
+
+    .cont-img img {
+
+        width: 28px !important;
+        padding: 0 3px !important;
+        height: 18px !important;
     }
 
 
