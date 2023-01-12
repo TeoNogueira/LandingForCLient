@@ -470,6 +470,12 @@ footer p:last-child {
         bottom: 34px;
     }
 
+    .btn-primary {
+        padding: 14px 15px;
+   
+      
+    }
+
     img.cont-img {
 
 
@@ -490,18 +496,7 @@ footer p:last-child {
 
     .btn-primary {
         padding: 12px 15px;
-        background: var(--main-color-gr);
-        border: 1px solid var(--main-color-gr);
-        color: white;
-        text-transform: uppercase;
-        font-weight: bold;
-        font-size: 24px;
-        cursor: pointer;
-        border-radius: 34px;
-        text-decoration: none;
-        transition: all .3s;
-        position: relative;
-        bottom: 90px;
+   
       
     }
 
