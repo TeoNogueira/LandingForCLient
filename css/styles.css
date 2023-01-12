@@ -487,6 +487,7 @@ footer p:last-child {
     }
 
     .cont-for-header {
+        justify-content: center;
         flex-direction: column-reverse ;
     }
 
@@ -543,6 +544,8 @@ footer p:last-child {
     }
 
 .cont-for-header {
+  
+    justify-content: center !important;
         flex-direction: column-reverse ;
     }
 
@@ -557,13 +560,13 @@ footer p:last-child {
         flex: 0;
         width: 100%;
         height: 50%;
-        margin-bottom: 100px !important;
+        margin-bottom: 50px !important;
         justify-content: flex-end;
         
     }
 
     .hero-1 h2 {
-        font-size: 28px;
+        font-size: 50px;
     }
 
 
