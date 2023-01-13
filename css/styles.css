@@ -691,6 +691,10 @@ header {
         /* max-width: 460px; */
     }
 
+
+    .parallax {
+        background-image: url('../img/selo.png') !important;
+    }
 }
 
 
