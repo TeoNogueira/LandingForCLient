@@ -520,6 +520,9 @@ footer p:last-child {
 
 @media (max-width: 425px) {
 
+
+ }
+
     .cont-img {
 
         display: flex;
@@ -528,7 +531,7 @@ footer p:last-child {
         justify-content:center;
         position: relative;
         margin: 0 auto;
-        /* bottom: 34px; */
+        bottom: 5px;
     }
 
 /* .main-header-bg {
@@ -554,10 +557,6 @@ footer p:last-child {
        
     }
 
-    .main-header {
-
-        height: 100vh !important;
-    }
 
 
     .hero {
@@ -589,8 +588,6 @@ footer p:last-child {
 
 
 }
-
-
 
 @media (max-width: 375px) {
 
