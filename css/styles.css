@@ -517,7 +517,7 @@ footer p:last-child {
 }
 
 
-@media (max-width: 425px) {
+@media (max-width: 425px) and (min-width: 375px){
 
 header {
 
