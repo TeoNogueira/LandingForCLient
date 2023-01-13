@@ -521,13 +521,13 @@ footer p:last-child {
 
 header {
 
-    height: 80vh !important;
+    height: 80% !important;
 }
 
 #work {
 
-    position: relative;
-    top: 115px;
+    /* position: relative; */
+    /* top: 115px; */
 }
 
 
@@ -539,8 +539,8 @@ header {
         justify-content:center;
         position: relative;
         margin: 0 auto;
-        bottom: 25px;
-        height: 120px;
+        bottom: 15px;
+        height: 20px;
     }
 
 /* .main-header-bg {
