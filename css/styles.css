@@ -369,6 +369,8 @@ iframe {
     align-items: center;
     justify-content: center;
     color: white;
+    overflow-y: hidden;
+    user-select: none;
 }
 
 .parallax h1, h2 {
@@ -694,7 +696,7 @@ header {
 
     .parallax {
         background-image: url('../img/selo.png') !important;
-        overflow-y: hidden;
+        overflow-y: hidden !important;
     }
 }
 
