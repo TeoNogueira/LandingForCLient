@@ -582,8 +582,8 @@ footer p:last-child {
     
     
         iframe {
-            width: 370px;
-            height: 220px;
+            width: 370px !important;
+            height: 220px !important;
             /* max-width: 460px; */
         }
 
