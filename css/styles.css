@@ -357,7 +357,7 @@ iframe {
 
 /* Parallax */
 
-.parallax {
+ .parallax {
     background-image: url('../img/parallax.png');
     background-size: cover;
     background-attachment: fixed;
@@ -368,7 +368,7 @@ iframe {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
+    color: white;
 }
 
 .parallax h1, h2 {
@@ -376,8 +376,7 @@ iframe {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    color: white;
+    
 }
 
 
