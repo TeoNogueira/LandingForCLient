@@ -453,6 +453,11 @@ NAME + VIDEOS
     justify-content: flex-start;
 }
 
+.ytp-large-play-button-red-bg {
+
+    color: green !important;
+}
+
 /* 
  *  NEWSLETTER SECTION
  */
