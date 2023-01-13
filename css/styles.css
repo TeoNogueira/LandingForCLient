@@ -694,6 +694,7 @@ header {
 
     .parallax {
         background-image: url('../img/selo.png') !important;
+        overflow-y: hidden;
     }
 }
 
