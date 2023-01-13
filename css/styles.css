@@ -388,20 +388,24 @@ iframe {
 
 
 /* 
- *  TESTIMONIALS SECTION
+ *  DEPOIMENTS SECTION
  */
+.depoiments {
+    background: #111111;
+    color: white;
 
-.testimonial {
+}
+.depoiment {
     margin: 40px auto 0 auto;
     max-width: 900px;
 }
 
-.testimonial__quote {
+.depoiment__quote {
     font-size: 20px;
     font-weight: 600;
 }
 
-.testimonial__author {
+.depoiment__author {
     font-style: normal;
 }
 
@@ -440,7 +444,7 @@ iframe {
 
 footer {
     padding: 50px 0;
-    background: #3a4347;
+    background: #111111;
     color: #a0a0a0;
     text-align: center;
 }
